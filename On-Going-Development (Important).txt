@@ -1,0 +1,13 @@
+************************
+Project : React-Laravel Ecommerce (v2-development-phase)
+
+Details-> It's the v2 development initiative of the "Ecommerce project made initially by next.js and laravel then converted the front end to react." I took the deployVersion codebase instead of the localVersion codebase even though I'm developing it locally. Then I replaced the env credentials to match the local environment. I did it cause I felt that localVersion codebase was not as up to date. Thus I took the initiative to copy and configour the deployVersion of the codebase and configoured to work in the local environment. 
+
+Important Notice: Remember that the backend codebase that is stored in the cpanel does not contain the GITHUB_REDIRECT variable in the .env file. Instead It's been hard coded in the service.php file. You need to change that so that transition from local environment to cpanel environment becomes easier.
+
+
+Task: I need to test the sslcommerz system for the payment gateway functionality. I created a new php file in the routes directory on the laravel codebase and configoured it with the web.php file. I tested it and it worked. So now you need to focus on the sslcommerz integration part
+
+
+
+************************
